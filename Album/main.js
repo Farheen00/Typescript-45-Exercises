@@ -1,11 +1,7 @@
 //Album
-interface musicAlbum{
-        artistName:string ,
-         albumTitle:string ,
-          numberOfTracks?:number
-}
+
             
-function make_album(artistName, albumTitle, numberOfTracks?):musicAlbum {
+function make_album(artistName, albumTitle, numberOfTracks) {
     return { artistName: artistName, albumTitle: albumTitle, numberOfTracks: numberOfTracks
     };
 }
